@@ -1,0 +1,41 @@
+{
+  "name": "@pomba/spinner",
+  "version": "0.1.0",
+  "description": "Ultra simple spinner",
+  "main": "index.js",
+  "author": "pjmp",
+  "license": "(MIT or Apache-2.0)",
+  "repository": "https://github.com/pjmp/spinner",
+  "bugs": {
+    "url": "https://github.com/pjmp/spinner/issues"
+  },
+  "keywords": [
+    "spinner",
+    "spinners",
+    "pretty"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "fmt": "prettier --write *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines" : {
+    "node" : ">6.4.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2021
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "eslint": "^7.9.0",
+    "prettier": "^2.1.1"
+  }
+}
